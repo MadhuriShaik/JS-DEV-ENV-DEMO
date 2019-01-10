@@ -1,0 +1,22 @@
+{
+  "name": "js-dev-env-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MadhuriShaik/JS-DEV-ENV-DEMO.git"
+  },
+  "author": "'Madhuri'",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MadhuriShaik/JS-DEV-ENV-DEMO/issues"
+  },
+  "homepage": "https://github.com/MadhuriShaik/JS-DEV-ENV-DEMO#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
