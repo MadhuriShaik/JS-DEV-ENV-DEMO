@@ -5,12 +5,13 @@
   "main": "index.js",
   "scripts": {
     "prestart": "babel-node buildScripts/newMessage",
-    "start": "npm-run-all --parallel open:src",
+    "start": "npm-run-all --parallel open:src test:watch",
     "open:src": "babel-node buildScripts/srcServer.js",
     "test1": "echo \"Error: no test specified\" && exit 1",
     "localtunnel": "lt --port 8081 --subdomain pavani",
     "share": "npm-run-all --parallel open:src localtunnel",
-    "test": "mocha --reporter progress buildScripts/testSetup.js \"src/**/*.test.js\""
+    "test": "mocha --reporter progress buildScripts/testSetup.js \"src/**/*.test.js\"",
+    "test:watch": "npm run test -- --watch"
   },
   "repository": {
     "type": "git",
