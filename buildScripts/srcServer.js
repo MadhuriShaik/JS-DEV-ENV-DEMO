@@ -30,3 +30,11 @@ app.get('/', (req, res) =>
 {
     res.sendFile(path.join(__dirname, '../src/index.html'))
 })
+
+app.get('/users', (req, res) => {
+    res.json([
+        {"id": 1, "firstName":"Madhuri", "lastName":"Shaik", "email":"madhuri@gmail.com"},
+        {"id": 2, "firstName":"Aswathy", "lastName":"KJ", "email":"ashu@gmail.com"},
+        {"id": 3, "firstName":"Pavani", "lastName":"Samatam", "email":"pavani@gmail.com"}
+    ]);
+});
