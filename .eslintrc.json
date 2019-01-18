@@ -1,8 +1,8 @@
 {
     "root": true,
     "extends": [
-        "eslint: recomended",
-        "plugin: import/errors",
+        "eslint:recommended",
+        "plugin:import/errors",
         "plugin:import/warnings"
     ],
     "parserOptions": {

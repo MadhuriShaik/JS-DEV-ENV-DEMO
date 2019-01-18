@@ -1,4 +1,3 @@
-import numeral from 'numeral';
 import {getUsers, deleteUser} from './api/userApi';
 //import { link } from 'fs';
 //import './index.css';
